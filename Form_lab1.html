@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+  <h3>Lab Html-Form</h3>
+  <form>
+     <p>
+       <label for="fname">Name: </label>
+       <input type="text" name="fname" maxlength="25" placeholder="Linta Mary Joseph" required>
+     </p>
+
+     <p>
+  	   <label for="fmail">Email: </label>
+       <input type="Email" name="fmail" value="test@example.com" required autofocus>
+     </p>
+
+     <p>
+  	   <label for="fpsswd">Password: </label>
+       <input type="Password" name="fpsswd" minlength="6" required>
+     </p>
+
+     <p>
+  	   <label for="fcat">Category: </label>
+       <select name="fcat">
+       	 <option name="fcat">Student</option>
+       	 <option name="fcat">Employee</option>
+       	 <option name="fcat" selected="True" >Freelancer</option>
+       </select>
+     </p>
+
+     <p>
+  	   <label for="fdate">Event Date: </label>
+       <input type="date" name="fdate" required>
+     </p>
+
+     <p>
+  	   <label for="ftckt">Tickets: </label>
+       <input type="radio" name="ftckt">1 ticket
+       <input type="radio" name="ftckt" checked>2 ticket
+       <input type="radio" name="ftckt">3 ticket
+     </p>
+
+     <p>
+  	   <label for="fpay">Event Date: </label>
+       <input type="checkbox" name="fpay" required>Online Payment
+     </p>
+
+     <p>
+  	   <label for="fnote">Notes: </label>
+       <textarea name="fnote" rows="5" cols="50" placeholder="Describe yourself here...."></textarea> 
+     </p>
+
+     <p>
+       <input type="submit" name="fsub" value="submit">
+     </p>
+  </form>
+</body>
+</html>
